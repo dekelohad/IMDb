@@ -1,0 +1,12 @@
+{
+  "omdb": {
+    "uri": "http://www.omdbapi.com",
+    "apiKey": "yourApiKey"
+  },
+  "server": {
+    "port": 3000
+  },
+  "redis": {
+    "port": 61379
+  }
+}

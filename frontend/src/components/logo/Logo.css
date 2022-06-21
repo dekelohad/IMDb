@@ -1,0 +1,5 @@
+.logo {
+    color: var(--clr-gold);
+    font-size: 1.6rem;
+    cursor: pointer;
+}

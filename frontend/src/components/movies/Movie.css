@@ -1,0 +1,59 @@
+ .movies {
+     display: grid;
+     gap: 1.5em;
+     max-width: var(--max-width);
+     margin: 0 auto;
+     padding: 0.8em;
+ }
+
+ @media screen and (min-width: 576px) {
+     .movies {
+         grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+     }
+ }
+
+ .movies__title {
+     max-width: var(--max-width);
+     margin: 0 auto;
+     padding: 0.8em 0 0 0.8em;
+     font-size: 1.6rem;
+ }
+
+ .no--movies__title {
+     font-size: 1.8rem;
+     color: var(--clr-red);
+     text-transform: capitalize;
+     text-align: center;
+     padding-top: 2em;
+ }
+
+ .movie {
+     position: relative;
+     overflow: hidden;
+     width: 92%;
+     cursor: pointer;
+ }
+
+ .movie__info {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     padding: 0.5em 1em;
+     background: rgba(0, 0, 0, 0.4);
+     transform: translateY(100%);
+     transition: var(--transition);
+ }
+
+ .movie:hover .movie__info {
+     transform: translateY(0);
+ }
+
+ .movie__title {
+     margin-bottom: 0.25em;
+     color: var(--clr-white);
+ }
+
+ .movie__year {
+     margin-bottom: 0;
+     color: var(--clr-gold);
+ }

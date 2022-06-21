@@ -1,0 +1,15 @@
+.btn {
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 12px;
+  width: 100%;
+  font-size: 1.25rem;
+  cursor: pointer;
+  background-color: var(--clr-red);
+  color: var(--clr-white);
+  border: none;
+}
+
+.btn:hover {
+  background: var(--clr-green);
+}

@@ -1,0 +1,29 @@
+.search {
+    flex: 0.6;
+    padding: 0.8em;
+}
+
+.search__container {
+    display: flex;
+    align-items: center;
+}
+
+.search__input {
+    padding: 0.5em 2.5em;
+    flex: 1;
+    border: transparent;
+    color: var(--clr-white);
+    background-color: transparent;
+    box-shadow: 1px 1px 10px var(--clr-gray);
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search__icon {
+    width: 22px;
+    height: 22px;
+    margin-left: 12px;
+    position: absolute;
+    color: var(--clr-white);
+}

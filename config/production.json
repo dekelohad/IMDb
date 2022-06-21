@@ -1,0 +1,7 @@
+{
+    "redis": {
+        "host": "your-redis-host",
+        "port": 10895,
+        "url": "your-redis-url"
+    }
+}
