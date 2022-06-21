@@ -35,3 +35,26 @@ The API contains 3 routers.
     api/movie/:movie and will open a modal that will display the data obtained for this movie.
 
 The app state is managed by Context API.
+
+## Getting started:
+
+### How to run the Client?
+```
+$ git clone https://github.com/dekelohad/IMDb.git
+$ cd IMDb/frontend
+$ npm install
+$ create a .env file at the root of the project directory and within it, you will need to enter your OMDb API credentials.
+$ npm start
+# navigate to http://localhost:3000
+ ```
+ 
+### How to run the Server?
+```
+$ cd IMDb
+$ npm install
+$ redis-server
+$ npm run server
+navigate to http://localhost:5000
+```
+
+
