@@ -28,10 +28,10 @@ The API contains 3 routers.
     - Only if the user is a valid user he will be redirected to the dashboard page.
 
 1.  Home Page:
-    _ Contains the 3 main components of the app: SearchBar,Movie,Modal.
-    _ SearchBar component:Fetch movies data from api/movies endpoint only after that the user stops typing after 0.5sec.
-    _ Movie Component: A gallery of 10 movie cards, the data is retrieved from the endpoint API/movies/:movieTitle.
-    _ Modal component: Clicking on one of the gallery's movie cards will return the movie data from the endpoint
+    - Contains the 3 main components of the app: SearchBar,Movie,Modal.
+        - Search Bar component:Fetch movies data from api/movies endpoint only after that the user stops typing after 0.5sec.
+        - Movie Component: A gallery of 10 movie cards, the data is retrieved from the endpoint API/movies/:movieTitle.
+        - Modal component: Clicking on one of the gallery's movie cards will return the movie data from the endpoint
     api/movie/:movie and will open a modal that will display the data obtained for this movie.
 
 The app state is managed by Context API.
